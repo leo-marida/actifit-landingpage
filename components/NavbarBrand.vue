@@ -137,4 +137,23 @@ export default {
 .navbar-nav .nav-item a span{
   display: none;
 }
+<<<<<<< Updated upstream
 </style>
+=======
+
+.navbar-collapse .navbar-nav .nav-item.btn > .nav-link {
+  padding: 0.5rem 0.75rem; 
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-decoration: none !important; /* Added !important just in case, but better to resolve specificity */
+}
+
+.navbar-collapse .navbar-nav .nav-item.btn > .nav-link i {
+  font-size: 1.2em; 
+}
+</style>
+<!--test-->
+>>>>>>> Stashed changes
